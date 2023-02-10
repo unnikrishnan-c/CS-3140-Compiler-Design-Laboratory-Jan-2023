@@ -6,7 +6,7 @@ Assignment1:  Creation of Syntax Tree for Calculator and evaluation of  the Synt
 
 Assignment 2: Extending the language to support global variable declaration with variables of type "integer" and function calls. 
       The global variable declaration if present in the program should come first
-      Then expression for calculator should be extended to have assignment staement and function calls.
+      Then expression for calculator should be extended with assignment statements and function calls.
        
        One sample declaration statemtent block  in the source program is given below
        
