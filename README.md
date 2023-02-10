@@ -1,6 +1,6 @@
 # CS-3140-Compiler-Design-Laboratory-Jan-2023
 
-In this course we will implement  (a) Lexical Analyzer, (b) Syntax Analyzer (c) AST printing (d) Code Generation
+In this course we will implement  (a) Lexical Analyzer, (b) Syntax and Semantic Analyzer (c) AST printing (d) Code Generation
 
 Assignment1:  Creation of Syntax Tree for Calculator and evaluation of  the Syntax Tree. (Deadline 11:59 pm IST, Thursday Feb 09)
 
