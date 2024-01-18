@@ -1,10 +1,17 @@
-# CS-3140-Compiler-Design-Laboratory-Jan-2023
+# CS-3140-Compiler-Design-Laboratory-2024
+
+**Evaluation Policy**
+ - Viva: 15%
+ - Test1: 15%
+ - Test2 (Part of Project): 20%
+ - Continous Evaluation: 30%
+ - End Term Exam: 20%
 
 In this course we will implement  (a) Lexical Analyzer, (b) Syntax and Semantic Analyzer (c) AST printing (d) Code Generation
 
-Assignment1:  Creation of Syntax Tree for Calculator and evaluation of  the Syntax Tree. (Deadline 11:59 pm IST, Thursday Feb 09)
+Assignment1:  Creation and evaluation syntax tree using Lex and YACC. (Deadline 11:59 pm IST)
 
-Assignment 2: Extending the language to support global variable declaration with variables of type "integer", assignment statements, and function calls. 
+Assignment2: Extending the language to support global variable declaration with variables of type "integer", assignment statements, and function calls. 
       The global variable declaration if present in the program should come first.
       The expression for calculator should be extended with assignment statements and function calls.
        
