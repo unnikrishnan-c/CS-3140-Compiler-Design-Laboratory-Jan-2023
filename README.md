@@ -31,7 +31,7 @@ Extending the language to support global variable declaration with variables of 
               var1=10;
 
   **Teaching Assistants**
-       -Kevin Jude Concessao
-       -Nandakumar E
-       - Karthik Dhondi
+   -Kevin Jude Concessao
+   -Nandakumar E
+   - Karthik Dhondi
         
