@@ -13,7 +13,7 @@ In this course we will implement  (a) Lexical Analyzer, (b) Syntax and Semantic 
 
 **Assignment1**
    
-    Creation and evaluation syntax tree using Lex and YACC. (Deadline 11:59 pm IST)
+    Creation and evaluation syntax tree using Lex and YACC. 
 
 **Assignment2**
 
