@@ -34,5 +34,5 @@ Extending the language to support global variable declaration with variables of 
    
    - Kevin Jude Concessao
    - Nandakumar E
-   - Karthik Dhondi
+   - Thania Kumar
         
