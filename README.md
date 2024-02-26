@@ -30,6 +30,12 @@ Extending the language to support global variable declaration with variables of 
               
               var1=10;
 
+  **Assignment 3**
+  
+    Extend Assignment two have  support for 
+      - (a) One Dimensional Array, (b) if-then-else, (c) for loop
+      - Print symbol table and AST( Abstract Syntax Tree)
+
   **Teaching Assistants**
    
    - Kevin Jude Concessao
