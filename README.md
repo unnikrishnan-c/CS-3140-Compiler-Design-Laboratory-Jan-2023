@@ -40,6 +40,8 @@ Extending the language to support global variable declaration with variables of 
 
 
 **Sample Program for Assignment 3**
+
+
 ![Screenshot from 2024-02-27 23-10-09](https://github.com/unnikrishnan-c/CS-3140-Compiler-Design-Laboratory-Jan-2023/assets/63437154/d9662c0f-9a79-45ae-a9cd-585f476340f0)
 
 
