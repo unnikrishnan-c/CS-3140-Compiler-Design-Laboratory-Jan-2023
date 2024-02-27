@@ -47,6 +47,7 @@ Extending the language to support global variable declaration with variables of 
 	integer key;
 	integer start,end, mid, temp,result;
    enddecl
+   
    for(i=0;i<10;i++) {
 	array[i] = i+10;
    }
