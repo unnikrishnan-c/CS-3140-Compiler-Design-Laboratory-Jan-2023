@@ -40,33 +40,10 @@ Extending the language to support global variable declaration with variables of 
 
 
 **Sample Program for Assignment 3**
+![Screenshot from 2024-02-27 23-10-09](https://github.com/unnikrishnan-c/CS-3140-Compiler-Design-Laboratory-Jan-2023/assets/63437154/d9662c0f-9a79-45ae-a9cd-585f476340f0)
 
 
-    decl
-	integer array[10];
-	integer key;
-	integer start,end, mid, temp,result;
-   enddecl
-   for(i=0;i<10;i++) {
-	array[i] = i+10;
-   }
-   start=0;
-   end =9;
-   key=array[5];
-   for( ; start <end; ) {
-         mid=(start+end)/2;
-         if(array[mid]==key){
-              result=mid;
-              break;
-         }
-         else if (array[mid]>key) then {
-                      start=mid+1
-        }
-        else    end=mid-1
-       }
-	write(result)
-
- 
+    
     **Teaching Assistants**
    
    - Kevin Jude Concessao
