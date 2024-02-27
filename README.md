@@ -36,9 +36,7 @@ Extending the language to support global variable declaration with variables of 
    Extend Assignment two have  support for 
   - (a) One Dimensional Array, (b) if-then-else, (c) for loop
   - Print symbol table and AST( Abstract Syntax Tree)
-  - Refer Sample program **bin_search.sil** available in **Moodle**.
-
-  **Teaching Assistants**
+    **Teaching Assistants**
    
    - Kevin Jude Concessao
    - Nandakumar E
