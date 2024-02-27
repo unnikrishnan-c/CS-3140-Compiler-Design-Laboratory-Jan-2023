@@ -38,7 +38,9 @@ Extending the language to support global variable declaration with variables of 
   - Print symbol table and AST( Abstract Syntax Tree)
   - One Sample program given below
 **Sample Program for Assignment 3**
-     decl
+
+
+    decl
 	integer array[10];
 	integer key;
 	integer start,end, mid, temp,result;
@@ -62,7 +64,9 @@ enddecl
                       }
             else    end=mid-1
        }
-	write(result)	
+	write(result)
+
+ 
     **Teaching Assistants**
    
    - Kevin Jude Concessao
