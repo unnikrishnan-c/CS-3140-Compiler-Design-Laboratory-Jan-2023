@@ -25,7 +25,7 @@ Extending the language to support global variable declaration with variables of 
        
              begindecl 
                  integer  var1, var2,var3;
-             enddeclbin_search.sil
+             enddecl
 
        One sample asignment statement sequence is given below.
               
@@ -37,6 +37,8 @@ Extending the language to support global variable declaration with variables of 
   - (a) One Dimensional Array, (b) if-then-else, (c) for loop
   - Print symbol table and AST( Abstract Syntax Tree)
   - One Sample program given below
+
+
 **Sample Program for Assignment 3**
 
 
@@ -44,25 +46,23 @@ Extending the language to support global variable declaration with variables of 
 	integer array[10];
 	integer key;
 	integer start,end, mid, temp,result;
-enddecl
-
-	
-         for(i=0;i<10;i++) {
-		array[i] = i+10;
-	}
-        start=0;
-        end =9;
-	key=array[5];
-        for( ; start <end; ) {
-             mid=(start+end)/2;
-             if(array[mid]==key){
-               result=mid;
-               break;
-             }
-             else if (array[mid]>key) then {
+   enddecl
+   for(i=0;i<10;i++) {
+	array[i] = i+10;
+   }
+   start=0;
+   end =9;
+   key=array[5];
+   for( ; start <end; ) {
+         mid=(start+end)/2;
+         if(array[mid]==key){
+              result=mid;
+              break;
+         }
+         else if (array[mid]>key) then {
                       start=mid+1
-                      }
-            else    end=mid-1
+        }
+        else    end=mid-1
        }
 	write(result)
 
