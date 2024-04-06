@@ -11,11 +11,11 @@ In this course we will implement  (a) Lexical Analyzer, (b) Syntax and Semantic 
 
 
 
-**Assignment1**
+**Assignment 1**
    
     Creation and evaluation syntax tree using Lex and YACC. 
 
-**Assignment2**
+**Assignment 2**
 
 Extending the language to support global variable declaration with variables of type "integer", assignment statements, and function calls. 
       The global variable declaration if present in the program should come first.
@@ -31,7 +31,7 @@ Extending the language to support global variable declaration with variables of 
               
               var1=10;
 
-  **Assignment 3**
+**Assignment 3**
   
    Extend Assignment two have  support for 
   - (a) One Dimensional Array, (b) if-then-else, (c) for loop
@@ -44,16 +44,40 @@ Extending the language to support global variable declaration with variables of 
 
 ![Screenshot from 2024-02-27 23-10-09](https://github.com/unnikrishnan-c/CS-3140-Compiler-Design-Laboratory-Jan-2023/assets/63437154/d9662c0f-9a79-45ae-a9cd-585f476340f0)
 
-
 **Assignment 4**
 
   - Extend the assignment to generate MIPS assembly code. 
   - Reference documents added in Moodle for this assignment.
   - As a first step you need to install qemu and mips-gcc-10. refer qemu.sh in Moodle for the same.
-    
 
+**How to Make Sure Your Assignment Builds**
+
+Follow these commands. Make sure to replace 112xxxxxx-CS3140 with your repo slug (that you've shared with us) and assignment-2 with the appropriate tag for the assignment you are checking.
+
+```bash
+# === Step 1: Take a temporary clone ===
+cd /tmp
+git clone git@gitlab.com:112101045/112xxxxxx-CS3140.git
+cd 112xxxxxx-CS3140
+
+# === Step 2: Switch to the tag ========
+git checkout assignment-2
+
+# Make sure your program isn't built yet
+file bin/compiler # Should give a "No such file or directory" error
+
+# === Step 3: Try building ==============
+cd compiler
+make clean
+make
+
+# Make sure the file has been built
+file bin/compiler # Make sure the output of this command says it's a valid executable file
+
+# Now you can remove the temporary clone (i.e., /tmp/112xxxxxx-CS3140)
+```
     
-    **Teaching Assistants**
+**Teaching Assistants**
    
    - Kevin Jude Concessao
    - Nandakumar E
