@@ -45,6 +45,13 @@ Extending the language to support global variable declaration with variables of 
 ![Screenshot from 2024-02-27 23-10-09](https://github.com/unnikrishnan-c/CS-3140-Compiler-Design-Laboratory-Jan-2023/assets/63437154/d9662c0f-9a79-45ae-a9cd-585f476340f0)
 
 
+**Assignment 4**
+
+  - Extend the assignment to generate MIPS assembly code. 
+  - Reference documents added in Moodle for this assignment.
+  - As a first step you need to install qemu and mips-gcc-10. refer qemu.sh in Moodle for the same.
+    
+
     
     **Teaching Assistants**
    
