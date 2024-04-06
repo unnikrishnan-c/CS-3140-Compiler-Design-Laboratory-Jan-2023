@@ -11,11 +11,11 @@ In this course we will implement  (a) Lexical Analyzer, (b) Syntax and Semantic 
 
 
 
-**Assignment1**
+**Assignment 1**
    
     Creation and evaluation syntax tree using Lex and YACC. 
 
-**Assignment2**
+**Assignment 2**
 
 Extending the language to support global variable declaration with variables of type "integer", assignment statements, and function calls. 
       The global variable declaration if present in the program should come first.
@@ -31,7 +31,7 @@ Extending the language to support global variable declaration with variables of 
               
               var1=10;
 
-  **Assignment 3**
+**Assignment 3**
   
    Extend Assignment two have  support for 
   - (a) One Dimensional Array, (b) if-then-else, (c) for loop
@@ -46,7 +46,7 @@ Extending the language to support global variable declaration with variables of 
 
 
     
-    **Teaching Assistants**
+**Teaching Assistants**
    
    - Kevin Jude Concessao
    - Nandakumar E
